@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee registeration</title>
+  <style>
+    
+    body{
+      background-color: rgba(84, 33, 109, 0.9);
+    }
+    h1{
+      color: rgb(211, 206, 206);
+    }
+    label{
+      color: rgb(217, 210, 210);
+      display: inline-block;
+      width: 300px;
+    }
+    input{
+      background-color: rgb(255, 255, 255);
+      height: 35px;
+      width: 400px;
+      border-radius: 5px;
+
+    }
+    button{
+      height: 55px;
+      width: 700px;
+      background-color: rgba(55, 214, 190, 0.619);
+      color: rgb(0, 0, 0);
+      font-family: serif;
+      font-size: 35px;
+      align-items: center;
+      border-radius: 20px;
+      border-color: black;
+      font-family:'Times New Roman', Times, serif;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <div></div>
+  <h1 style="font-size: 50px;text-align: center;">STUDENT REGISTRATION FORM</h1>
+
+  
+  <form action="connect.jsp" method="post" style="text-align:center;">
+    <label id="fn" style="font-size: 30px;">First Name </label>
+    <input name="fname" type="text" placeholder="First name" >
+    <br/><br/>
+    <label id="ln" style="font-size: 30px;">Last Name </label>
+    <input name="lname" type="text" placeholder="Last name" >
+    <br/><br/>
+    <label style="font-size: 30px;">Email ID </label>
+    <input name="email" type="email" placeholder="Email ID" >
+    <br/><br/>
+    <label style="font-size: 30px;">Phone Number </label>
+    <input name="phone" type="number" placeholder="Phone number" >
+    <br/><br/>
+    <label style="font-size: 30px;">Date of Birth </label>
+    <input name="dob" type="date" placeholder="Date of Birth">
+    <br/><br/>
+    <label style="font-size: 30px;">Date of Joining</label>
+    <input name="doj" type="date" placeholder="Date of Joining">
+    <br/><br/>
+    <label style="font-size: 30px;">Gender </label>
+    <input name="gender" type="text" placeholder="male | female | others" >
+    <br/><br/>
+    <label style="font-size: 30px;">Address Line 1 </label>
+    <input name="address" type="text-area" placeholder="address line 1" >
+    <br/><br/>
+    <label style="font-size: 30px;">City </label>
+    <input name="city" type="text" placeholder="City" >
+    <br/><br/>
+    <label style="font-size: 30px;">State </label>
+    <input name="state" type="text" placeholder="State" >
+    <br/><br/>
+    <label style="font-size: 30px;">Zip Code </label>
+    <input name="zip" type="number" placeholder="zip code" >
+    <br/><br/>
+    <label style="font-size: 30px;">Country </label>
+    <input name="country" type="text" placeholder="country">
+    <br/><br/>
+    <button type="submit" >SUBMIT</button>
+  </form>
+</div>
+  
+</body>
+</html>
